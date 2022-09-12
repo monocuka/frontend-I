@@ -1,0 +1,36 @@
+/*selector universal*/
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*entre mas especifico sea mas prioridad va a tener  */
+
+.container {
+    width: 80vw;
+    height: 70vh;
+    margin: 20% 10%;
+    border:2px solid rgb(214, 214, 214) ;
+    border-radius: 15px;
+    box-shadow: 2px 2px 19px 3px rgba(189,189,189,0.75);
+-webkit-box-shadow: 2px 2px 19px 3px rgba(189,189,189,0.75);
+-moz-box-shadow: 2px 2px 19px 3px rgba(189,189,189,0.75);
+
+    
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.formulario {
+    height: 50%;
+}
+
+

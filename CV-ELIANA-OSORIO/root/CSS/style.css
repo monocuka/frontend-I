@@ -1,0 +1,28 @@
+.fotoeli{
+    width: 10%;
+   
+}
+
+header{
+    text-align: center;
+    height: 400px;
+    background-image: url("misbebes.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+h1,h4{
+    background-color:#c39bae;
+    color:#000000 ;
+}
+
+footer{
+    text-align: center;
+    align-items: center;
+    background-color:#c39bae;
+}
+.githublog{
+    width: 02%;
+}
+
+}

@@ -1,0 +1,54 @@
+
+* {
+    padding: 0;
+    margin: 0;   
+}
+main {
+    display: flex;
+    margin: 12% 0%;
+    justify-content: space-around;
+}
+.divprom{
+    background-color:#1CD1B0;
+}
+.divprom p {
+    padding: 1%;
+}
+
+header {
+    width: 100vw;
+
+    padding: 2%;
+    background-color:#00669F ;
+}
+
+article{
+    background-color:#F3F3F3;
+    margin: 50px;
+    padding: 50px;
+    
+}
+
+.like{
+    display: block;
+}
+
+.fondo{
+    display: block;
+    margin: 1px;
+
+}
+.bio{
+    
+    text-align: justify center;
+}
+
+.nombre {
+    text-align: center;
+}
+.derechos {
+    padding: 2%;
+    background-color: #00669F;
+}
+
+

@@ -1,0 +1,72 @@
+/* estilos generales */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 75px;
+}
+
+
+/* estilos del header */
+
+header {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img,
+.fa-bars {
+    margin: 0 2.5%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    list-style-type: none;
+}
+
+li {
+    margin: 15px;
+}
+
+nav {
+    width: 40%;
+}
+
+.fa-bars {
+    font-size: 2rem;
+    /* oculta pero no deja de ocupar espacio */
+    visibility: hidden;
+}
+
+
+/* max width: HASTA ese ancho. */
+
+
+/* min width: DESDE ese ancho */
+
+@media (max-width: 650px) {
+    .fa-bars {
+        visibility: visible;
+        /* añadirle espacio a la derecha para mejor posicionamiento */
+    }
+    nav {
+        /* deja de ocupar espacio */
+        display: none;
+    }
+}
+
+
+/* CONSIGNAS: */
+
+
+/* 1) Que cuando el header sea mobile, tenga un background-image 
+    2) Que cuando el header mida más de 900px, su contenido se vea de color azul 
+    3) Que cuando el header mida menos de 300px aparezca un mensaje que diga "agrandá la pantalla por favor!" y el resto de elementos se oculten */

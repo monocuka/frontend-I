@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 7 septiembre forms</title>
+    <link rel="stylesheet" href="./css/cssform.css">
+</head>
+<body>
+    <div><p>20% de descuento en todos los productos!</p></div>
+    <header>
+        <img src="./img/Logo.png" alt="logotienda">
+        <P>Nombre Tienda</P>
+        <nav> <ul>
+            <li>Contacto</li>
+            <li>Registrarme</li>
+            <li>Ingresar</li>
+        </ul>
+    </nav>
+    </header>
+    
+
+        <section class="container flex">
+            <h1>Añadí tu super!</h1>
+            <div><p>Agregá tu personaje favorito completando las opciones.</p></div>
+            <!--Reglas
+            1-Dentro de form (contenedor) solo haya etiquetas relacionadas con formulario
+            -->
+            <form action="./datos.php" method="POST" class="formhero flex">
+                <fieldset>
+                    <label for="">Nombre</label>
+                    <input type="text" name="text" id="text">
+                    <label for="">Especie</Em></label>
+
+                    <select name="list" id="list"></select>
+                        <option value=""></option>
+                        <label for="">Fecha</label>
+                        <input type="date" name="date" id="date">
+
+                        <label for="">Agregar Foto</label>
+                        <input type="file" name="file" id="file">
+
+                        <textarea name="coment" id="coment" cols="30"   rows="10">Descripción</textarea>
+
+                        <label for=""><input type="checkbox" name="check" id="check">   Volar</label>
+
+                        <label for=""><input type="checkbox" name="check"   id="check">SuperInteligencia</label>
+
+                        <label for=""><input type="checkbox" name="check"   id="check">Vista de rayo láser</label>
+
+                        <label for=""><input type="checkbox" name="check"   id="check">Billetera gorda</label>
+
+                        <label for="">Tipo de personaje</label>
+
+                        <label for=""><input type="radio" name="radio" id="radio" >     Héroe / Heroina</label>
+                        <label for=""><input type="radio" name="radio" id="radio" >     Villano / Villana</label>
+                </fieldset>
+                <button type="submit">Añadir</button>
+            </form>
+    </section>    
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,16 @@
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(177, 40, 40);
+}
+#article-uno{
+    background-color: blanchedalmond;
+}
+
+.article-main{
+    color: rgb(90, 9, 161);
+}
+
+.imagen-article{
+    width: 400px;
+    height: 300px;
+}

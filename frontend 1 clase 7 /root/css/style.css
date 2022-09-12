@@ -1,0 +1,15 @@
+header{
+    background-color: #E6E6E6;
+    text-align: center;
+}
+h1,h4{
+    background-color:#C4C4C4;
+    color:#005677 ;
+}
+
+footer{
+    text-align: center;
+    align-items: center;
+    background-color:#005677;
+}
+

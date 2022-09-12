@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 1;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+    
+}
+
+nav ul {
+    color:white;
+    display: flex;
+    padding: 0 50px;
+    list-style: none;
+}
+nav ul li {
+    margin: 20px;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+/*hol*/
